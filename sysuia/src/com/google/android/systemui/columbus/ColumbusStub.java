@@ -15,6 +15,6 @@ public class ColumbusStub {
 
     // Columbus model name for non-CHRE mode
     public static String getModelFileName() {
-        return SystemProperties.get("persist.acryl.columbus.model", "tap7cls_redfin.tflite");
+        return SystemProperties.get("persist.acryl.columbus.model", "tap7cls_crosshatch.tflite");
     }
 }
